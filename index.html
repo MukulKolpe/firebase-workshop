@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase</title>
+</head>
+<script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-storage-compat.js"></script>
+<script type="module" src="src/config.js"></script>
+<script type="module" src="src/firestore.js"></script>
+<!--<script type="module" src="src/storage.js"></script>-->
+<script type="module" src="src/auth.js"></script>
+<body>
+    <button id="button">Login with Google</button>
+    <button id='signout'> signout</button>
+
+    <h1>Storage Uploads</h1>
+    <input type="file" , id="fileUploads">
+    <hr>
+    <iframe id="change" src="" width="400px" height="400px"></iframe>
+</body>
+</html>
